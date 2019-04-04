@@ -3,6 +3,7 @@ const fs = require('fs')
 const path = require('path')
 const fetch = require('node-fetch');
 const folder = process.argv[2];
+
 // console.log(folder)
 // const validate = '--' + process.argv[3];
 console.log(process.argv)

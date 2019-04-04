@@ -1,4 +1,5 @@
 const fetch = require('node-fetch');
+const colors = require('colors');
 
 
 const linksValidate = (dataLinks) =>{

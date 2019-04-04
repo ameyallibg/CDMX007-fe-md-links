@@ -24,6 +24,7 @@
   "homepage": "https://github.com/ameyallibg/CDMX007-fe-md-links#readme",
   "dependencies": {
     "axios": "^0.16.2",
+    "colors": "^1.3.3",
     "node-fetch": "^2.3.0"
   }
 }
