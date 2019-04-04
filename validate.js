@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 
-export const linksValidate = (dataLinks) =>{
+const linksValidate = (dataLinks) =>{
     
 
      dataLinks.forEach(function (element) {
@@ -13,3 +13,5 @@ export const linksValidate = (dataLinks) =>{
       }) 
 
 } 
+
+module.exports.linksValidate= linksValidate
