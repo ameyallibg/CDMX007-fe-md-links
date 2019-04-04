@@ -7,7 +7,7 @@ const linksValidate = (dataLinks) =>{
      dataLinks.forEach(function (element) {
         console.log(element)
         fetch(element).then(response => {
-          return console.log(`respuesta: ${response.status} link:${element} `)
+           console.log(`respuesta: ${response.status} link:${element} `)
             
         }) 
       }) 
